@@ -21,7 +21,7 @@ To learn React.
 - input에는 굉장히 여러가지 type들이 있다.
 - onChange를 활용하여 input의 value 받아오기.
 
-## 2. Counter App
+## 2-0. Counter App
 
 - 현재 카운트, +버튼, -버튼을 보여주고 +버튼을 누르면 현재 카운트를 1 증가, -버튼을 누르면 현재 카운트를 1 감소시키는 리액트 앱 만들기
 
@@ -34,7 +34,7 @@ To learn React.
 - 컴포넌트 만들고 사용하기
 - Lifting State up
 
-### I got some problems ( In 2 )
+### Problems ( In 2-0 )
 
 - 기본값 설정을 잘못함. useState("0") 때문에 +1을 누르면 01이 되어버리는 이슈가 있었다.
   - useState(0)으로 변경하니 아주 잘 동작함.
